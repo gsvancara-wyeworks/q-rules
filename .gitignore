@@ -1,0 +1,45 @@
+# Q Rules - Project .gitignore
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Node modules (if using Node.js tools)
+node_modules/
+
+# Python cache (if using Python tools)
+__pycache__/
+*.pyc
+*.pyo
+
+# Local environment files (never commit these!)
+.env
+.env.local
+.env.*.local
+
+# Personal files
+personal/
+
+# Temporary files
+tmp/
